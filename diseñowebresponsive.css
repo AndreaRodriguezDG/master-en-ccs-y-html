@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cuadrado{
+    margin: 60px;
+    width: 45%;
+    height: 500px;
+    background: blueviolet;
+}
+/*asi se utullizan los mediacueris, auqe siren para las propiedades de adapten a cualquier elemnto que tenga diversos tamaños en concreto*/
+@media (min-width: 800px) {
+    .cuadrado{
+        background: brown;
+        width: 70%;
+    }
+}

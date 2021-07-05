@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boton{
+    background: gray;
+    color: white;
+    /*font-size: 36px; para aagrandar el texto*/
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    /*padding le damos el ancho, alto, arriba y abajo*/
+    padding: 20px 0;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+/*boton:hover lo que hace esta pseudi-clase es cambiar el color cuando pasemos el raton por encima del boton*/
+.boton:hover{
+    background: white;
+    border: 1px solid #dddddd;
+    color: black;
+}
+.boton:active{
+    background: blue;
+    color: white;
+}
+#numero1:target{
+    background: black;
+    color: white;
+}
+#numero2:target{
+    background: red;
+    color: white;
+}
+#numero3:target{
+    background: violet;
+    color: white;
+}
+input{
+    display: block;
+    padding: 10px;
+}
+/*con este iput:focus cuando le damos click en el campo de formulario este cambaia de color*/
+input:focus{
+    background: white;
+    /*outline-color: tan; para cambiarle el color al borde del formulario*/
+    outline-color: violet;
+}

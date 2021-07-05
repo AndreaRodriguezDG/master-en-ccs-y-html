@@ -1,0 +1,46 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+   /*font-weight: 900; para ponerle gruesor a las letras del texto*/
+    font-weight: 900;
+    /*text-align: center para centrar el texto */
+    text-align: center;
+}
+
+.section{
+    /*  width ancho */
+    width: 600px;
+    background: rgb(236, 167, 221);
+    /*  margin: auto; centrar texto */
+    margin: auto;
+    /* padding alto o ancho*/
+    padding: 20px; 
+}
+.titulo{
+    /* font-size tamaño del texto*/
+    font-size: 60px;
+    /* font-style: italic nos cambia la topografia y la podemos usar en cualquier texto*/
+    font-style: italic;
+    font-weight: 800px;
+    display: inline;
+    /* el  font family es el link del tipo de letra que vamos a usar en el texto*/
+    font-family: 'Raleway', sans-serif;
+}
+.texto{
+    font-size: 24px;
+    font-weight: 500px;
+    /* line-height separa un ancho de un parrafo al otro*/
+    line-height: 50px;
+}
+.enlace{
+    /*  font-size: tamaño de letra*/
+    font-size: 16px;
+    /* font-weight: gruesor de letra*/
+    font-weight: 500px;
+    /* text-decoration para subrayar el enlace*/
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+ *{
+     margin: none;
+     padding: none;
+     box-sizing: border-box;
+ }
+
+ /*puedo poner body en ves de section ( osea dejando solo body)*/ 
+body{
+    width: 100%;
+    height: 100vh;
+    color: rgba(12, 11, 11, 0.959);
+    background: linear-gradient(to left, violet 10%,aqua 90%);
+    background-repeat: no-repeat;
+
+ }
+
+ 

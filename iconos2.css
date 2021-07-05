@@ -1,0 +1,9 @@
+.menu + li{
+    background-color: black;
+    color: chartreuse;
+    text-align: center;
+    }
+
+    [href$=".com"]{
+        color: rgb(146, 16, 16);
+    }

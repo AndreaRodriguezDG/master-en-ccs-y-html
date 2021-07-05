@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 600px;
+    height: 500px;
+    border: 1px solid brown;
+    margin: 20px auto;
+}
+.item{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background: crimson;
+    line-height: 80px;
+}
+.fixed{
+    background: chartreuse;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+.lorem{
+    width: 500px;
+    height: 600px;
+}

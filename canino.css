@@ -1,0 +1,98 @@
+.hogar-canino{
+    color: saddlebrown;
+    font-weight: bolder;
+    font-size: 60px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    width: 200px;
+    height: 50%;
+    text-align:left;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 600px;
+    background: linear-gradient(to left, rgb(245, 245, 245) 10%,rgb(245, 241, 245) 90%);
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(Imagenes/huellas.jpg );
+}
+
+.nombres{
+    background: rgba( 255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.nombre{
+    background: rgba( 255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.nombre3{
+    background: rgba( 255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.nombre4{
+    background: rgba( 255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.nombre5{
+    background: rgba( 255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.padding{
+    display: block;
+    background:  linear-gradient(to left, aqua 10%,violet 90%);
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: 1px solid white;
+    transition: padding 0.5s ease ;
+    
+}
+
+
+
+.color{
+    width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(to left, violet 10%,aqua 90%);
+    padding: 80px;
+}
+
+
+.contenido img{
+    width: 30px;
+    float: left;
+    margin-right: 10x;
+    margin-bottom: 20px;
+}
+
+
+.contenid img{
+    width: 30px;
+    float: left;
+    margin-right: 10x;
+    margin-bottom: 20px;
+}
+
+.nombres-caninos{
+    /* font-size: con esta propiedad podemos alineas el texto con imagenes*/
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    background-color:  rgb(245, 245, 245) 10%,rgb(245, 241, 245) 90%;
+    
+}

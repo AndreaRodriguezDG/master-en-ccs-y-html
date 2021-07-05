@@ -1,0 +1,20 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+:root{
+    --ColorFondoPrimario: rgb(28, 218, 37);
+}
+a{
+    display: block;
+    width: 250px;
+    /*var(--ColorFondoPrimario esta una variable que emos creado con el root*/
+    background-color: var(--ColorFondoPrimario);
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+}

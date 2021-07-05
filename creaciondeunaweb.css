@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*font-family: 'Lato', sans-serif; este es el enlace de el tipo de letra que vamos a utulizar*/
+    font-family: 'Lato', sans-serif;
+}
+header{
+    /*z-index: 100;esta popierdad sirve para dejar en promera posicion (que siempre este a la vista)*/
+    z-index: 100;
+    background: ivory;
+    height: 90px;
+    /* width: 100%; para que agarre toda la pantalla*/
+    width: 100%;
+    /*position: fixed; para fijar que el menú se quede fijo*/
+    position: fixed;
+    /*es el enlace del degradado de box-shadow de css*/
+    box-shadow: 0px -2px 24px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -2px 24px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 24px -12px rgba(0,0,0,0.75);
+}
+.logo img{
+    /* position absosulte es el que siempre trbajamos*/
+    position: absolute;
+    /* el top y el left lo ponemos 0 lleva hacia la esqquina el logo etc..*/
+    top: 0;
+    left: 0;
+    /* con el width le ponemos el ancho*/
+    width: 200px;
+    /*padding le damos el ancho, alto, arriba y abajo*/
+    padding: 15px 20px 15px 20px;
+    /*margin-left para se se separe de la esquina de la esquina del navegador*/
+    margin-left: 200px;
+    }
+.menu{
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*margin-left: 200px; distancia de la parte derecha*/
+    margin-right: 200px;
+    font-weight: 700;
+}
+.menu ul{
+    /* list-style: none; para que no tenga el estilo de lista*/
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 130px;
+}
+/*aca trabajamos el icono*/
+.menu li{
+    float: left;
+    /* list-style: none; para quitar los puntitos que nmos dejo lo de la lista*/
+    list-style: none;
+}
+.menu a{
+    margin-left: 20px;
+    /*line-height: 70px; para centrar el menu en el mismo alto que el header*/
+    line-height: 70px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+/*.menu a:hover para que cuando pasemos el ratón se haga un efecto de color*/
+.menu a:hover{
+    color: crimson;
+}
+.menu i{
+    /* margin-top: 25px; para centrar un poco*/
+    margin-top: 25px;
+    /* margin-left: 20px; para separar un icono del otro*/
+    margin-left: 20px; 
+    /*  size: 18px; tamaño*/
+    size: 18px;
+    color: darkslateblue;
+}
+.slider{
+    /*z-index: 10; va a hacer inferior a del menu para pase por debajo del menu cuand hagamos scrool*/ 
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: fuchsia;
+    /* background-image: linear-gradient este es el enlace de el fresh background*/
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    text-align: center;
+    /* padding-top: juntar el alto del slider y el alto del menu*/
+    padding-top: 300px;
+}
+.ola{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/*modificacion del primer tifjlo*/
+.titulo{
+    /*font-size: 36px; para aagrandar el texto*/
+    font-size: 60px;
+    font-weight: 500px;
+    color: white;
+}
+/*modificacion del titulo2*/
+.titulo2{
+    /*font-size: 36px; para aagrandar el texto*/
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+    margin-bottom: 40px;
+}
+/*modificacion del boton*/
+.boton a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background: black;
+    color: white;
+    margin: auto;
+    border-radius: 1px;
+    /*font-size: 36px; para aagrandar el texto*/
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.servicios{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img-servicios{
+    width: 400px;
+    padding-bottom: 30px;
+}
+.titulo-servicios{
+    padding: 20px;
+}
+.texto{
+    width: 1000px;
+    /*margin: auto; centrar texto*/
+    margin: auto;
+}
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background: url(imagenes/codigo2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+.secth2{
+    color: white;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    /* line-height: 100px; para que quede firme el texto*/
+    line-height: 100px;
+    /*font-size: 36px; para aagrandar el texto*/
+    font-size: 44px;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background: white;
+    height: 60px;
+    line-height: 200px;
+}

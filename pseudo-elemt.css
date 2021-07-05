@@ -1,0 +1,13 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+p::selection{
+    background: skyblue;
+    color: white;
+}
+p::first-line{
+    /*font-size para poner en grande la primera leta del texto*/
+    font-size: 30px;
+}
